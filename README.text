@@ -1,0 +1,28 @@
+ SHOPPING CART APPLICATION
+---------------------------
+How to run the application
+    Running of application is divided in three parts:
+    - Run the main methods of Client_Users, Clients_Products and Client_Orders present in Clients package respectively.
+
+Clients (main functions)
+    - There are total of three main functions one each for Client_Users, Clients_Products and Client_Orders present in Clients package.
+
+Sequence of the clients to be run
+    - Run the main method of Client_Users.java, Client_Products.java and Client_Orders respectively present in Clients package.
+    - The final bill will be generated in a csv file named "FinalBill.csv" which will be present in Resources folder.
+
+
+All supported functionalities
+    - The application has the functionality of adding the information of users and products in the database.
+    - The database is updated whenever a user buys a product and confirms the order.
+    - The quantity of product is updated whenever a user buys a product.
+
+Summary of the project
+    It is a shopping cart application which is divided in four phases:
+    - Clients: This package contains the files which has the starting process of the application.
+    - Services: This package contains the files related to reading of text files.
+    - DAO: This package contains the files related to connection with data and executing sql queries.
+    - Domain: This package contains files containing getter and setter functions for setting and getting data from database.
+
+    Programming Language Used: Java
+    Database technology: MySQL
